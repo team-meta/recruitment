@@ -97,7 +97,7 @@ print(Math.ceil(1 / Math.pow(10, 1000)));
 
 ### 6. 아래의 출력값을 구하시오. 4점
 ```javascript
-Level.setDifficulty3.;
+Level.setDifficulty(3);
 var ent = Level.spawnMob(Player.getX(), Player.getY(), Player.getZ(), 32);
 print(Entity.getTarget(ent));
 ```
@@ -117,7 +117,7 @@ print(Entity.getTarget(ent));
 ### 8. 아래의 출력값을 구하시오. 5점
 ```javascript
 var a = 9;
-a = a.toString2.;
+a = a.toString(2);
 print(a);
 ```
 1. "001"
@@ -240,7 +240,7 @@ print(n--+-++n-++n);
 ### 7. 다음 중 문법에 어긋나는 것을 고르시오. 6점
 1. `int a = 0;`
 2. `Player& #~a^;`
-3. `Player* player; player->setPos(0,1,0);`
+3. `Player* player; player->setPos(0, 1, 0);`
 4. `Entity* arrow; arrow.remove();`
 5. `bool a = 0;`
 
