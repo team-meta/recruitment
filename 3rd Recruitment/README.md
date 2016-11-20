@@ -77,4 +77,4 @@ MDS VIP 등급 지급
 예시출력: 2
 ```
 
-### 9. var o={a:0,b:10,c:3};Object.defineProperty(o,"b",{set:function(x){this.a=x / 2 + this.c;}});                                       o.a의 값을 구하여라
+### 9. var o={a:0,b:10,c:3};Object.defineProperty(o,"b",{set:function(x){this.a=x / 2 + this.c;}});                                     일때 o.a의 값을 구하여라
